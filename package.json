@@ -1,0 +1,23 @@
+{
+  "name": "react-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd backend && node app.js",
+    "heroku-postbuild": "cd Dashboard && npm install --only=dev && npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "14.18.1"
+  },
+  "dependencies": {
+    "concurrently": "^4.0.1",
+    "multer": "^1.4.2",
+    "react-data-components": "^1.2.0",
+    "react-dropzone-component": "^3.2.0",
+    "react-nestable": "^1.2.2"
+  }
+}
