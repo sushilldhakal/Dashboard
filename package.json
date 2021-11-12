@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cd backend && node app.js",
-    "heroku-postbuild": "cd Dashboard && npm install --only=dev && npm install && npm run build"
+    "start": "cd backend && node app.js"
   },
   "keywords": [],
   "author": "",
